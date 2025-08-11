@@ -1,0 +1,8 @@
+{    
+    "current": [
+        {"seq": 1, "title": "전체 이용자", "cnt": "752,174", "type": "명" },
+        {"seq": 2, "title": "전체 기관수", "cnt": "348", "type": "기관" },
+        {"seq": 3, "title": "운영 SaaS", "cnt": "17", "type": "개" }
+        
+    ]
+}

@@ -1,0 +1,1335 @@
+@charset "UTF-8";
+
+@import url("../../../node_modules/remixicon/fonts/remixicon.css");
+/* 리믹스 아이콘 */
+@import url("../../../node_modules/pretendard-gov/dist/web/static/pretendard-gov.css");
+/* 프리텐다드 정부 */
+
+/*-------------------------------------------------
+title       : Reset
+Create date : 2024-05 
+-------------------------------------------------*/
+html,
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Pretendard GOV", sans-serif;
+  color: var(--gray-90);
+  font-weight: 400;
+  line-height: 1.5;
+  word-break: keep-all;
+  word-wrap: break-word;
+  -webkit-tap-highlight-color: transparent
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 10px
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Pretendard GOV", '맑은 고딕', 'Malgun Gothic', sans-serif;
+  font-size: var(--fz-body-md);
+  letter-spacing: inherit
+}
+
+body,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+textarea,
+a,
+button,
+select,
+ul,
+li,
+span,
+em,
+label,
+:before,
+:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: none;
+  font-family: inherit;
+  line-height: 1.5;
+  letter-spacing: inherit
+}
+
+header,
+footer,
+main,
+section,
+article,
+nav,
+aside {
+  display: block
+}
+
+ul,
+ol,
+li,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+  list-style: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+figure,
+figcaption {
+  margin: 0;
+  padding: 0
+}
+
+fieldset,
+hr {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0 none
+}
+
+input,
+select {
+  max-width: 100%;
+  vertical-align: middle
+}
+
+input,
+select,
+button,
+textarea,
+optgroup {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit
+}
+
+address,
+em,
+i {
+  font-style: normal
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+  color: inherit;
+  text-decoration: none
+}
+
+button {
+  padding: 0;
+  border: 0 none;
+  background: none;
+  cursor: pointer
+}
+
+select,
+input[type=submit],
+input[type=number] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+  margin: 0
+}
+
+img {
+  max-width: 100%;
+  border: 0 none;
+  font-size: 0;
+  vertical-align: middle
+}
+
+table {
+  table-layout: fixed;
+  max-width: none;
+  width: auto;
+  min-width: 100%;
+  border-collapse: collapse
+}
+
+caption,
+legend,
+.sr-only,
+.sr_only,
+.hidden,
+.blind,
+.IR,
+.hide {
+  overflow: hidden !important;
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important
+}
+
+::selection {
+  background: var(--secondary-60);
+  color: var(--white)
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0
+}
+
+/* *********************************************************************************
+ *	Root
+ * *********************************************************************************/
+:root {
+  --white: #fff;
+  --black: #000;
+  --primary: #246BEB;
+  --secondary: #003675;
+  --point: #E71825;
+  --danger: #EB003B;
+  --essential: #EB003B;
+  --warning: #98690A;
+  --success: #008A1E;
+  --information: #2768FF;
+  --primary-5: #EFF5FF;
+  --primary-10: #D3E1FB;
+  --primary-20: #A7C4F7;
+  --primary-30: #7CA6F3;
+  --primary-40: #5089EF;
+  --primary-60: #1D56BC;
+  --primary-70: #16408D;
+  --primary-80: #0E2B5E;
+  --primary-90: #07152F;
+  --secondary-5: #EDF1F5;
+  --secondary-10: #CDD7E4;
+  --secondary-20: #B4C4D6;
+  --secondary-30: #99B0CB;
+  --secondary-40: #2A5C96;
+  --secondary-60: #002B5E;
+  --secondary-70: #002046;
+  --secondary-80: #00162F;
+  --secondary-90: #000B17;
+  --point-5: #FDF2F3;
+  --point-10: #FAD1D3;
+  --point-20: #F5A3A8;
+  --point-30: #F1747C;
+  --point-40: #EC4651;
+  --point-60: #B9131E;
+  --point-70: #8B0E16;
+  --point-80: #5C0A0F;
+  --point-90: #2E0507;
+  --gray-5: #F8F8F8;
+  --gray-10: #F0F0F0;
+  --gray-20: #E4E4E4;
+  --gray-30: #D8D8D8;
+  --gray-35: #C8C8C8;
+  --gray-40: #C6C6C6;
+  --gray-50: #8E8E8E;
+  --gray-60: #717171;
+  --gray-70: #555555;
+  --gray-80: #2D2D2D;
+  --gray-90: #1D1D1D;
+  --btn-color1: #246BEB;
+  --btn-color2: #EFF5FF;
+  --fz-display-sm: 4rem;
+  --fz-display-md: 5rem;
+  --fz-display-lg: 6.6rem;
+  --fz-heading-xsm: 2.1rem;
+  --fz-heading-sm: 2.5rem;
+  --fz-heading-xmd: 2.9rem;
+  --fz-heading-md: 3.2rem;
+  --fz-heading-lg: 5rem;
+  --fz-title-xsm: 1.5rem;
+  --fz-title-sm: 1.7rem;
+  --fz-title-md: 1.9rem;
+  --fz-title-lg: 2.1rem;
+  --fz-title-xlg: 2.5rem;
+  --fz-title-xxlg: 3.2rem;
+  --fz-body-sm: 1.5rem;
+  --fz-body-md: 1.7rem;
+  --fz-body-lg: 1.9rem;
+  --fz-link-xsm: 1.4rem;
+  --fz-link-sm: 1.5rem;
+  --fz-link-md: 1.7rem;
+  --fz-link-lg: 1.9rem;
+  --fz-detail-sm: 1.3rem;
+  --fz-detail-md: 1.5rem;
+  --fz-detail-lg: 1.7rem;
+  --fz-label-xsm: 1.3rem;
+  --fz-label-sm: 1.7rem;
+  --fz-label-md: 2rem;
+  --fz-label-lg: 6.4rem;
+  --fz-label-xlg: 12rem;
+  --fz-tab-md: 1.7rem;
+  --fz-tab-lg: 1.9rem;
+  --rd-1: .1rem;
+  --rd-2: .2rem;
+  --rd-4: .4rem;
+  --rd-6: .6rem;
+  --rd-8: .8rem;
+  --rd-10: 1rem;
+  --rd-12: 1.2rem;
+  --rd-full: 100%;
+  --btn-h-sm: 3.2rem;
+  --btn-h-md: 4rem;
+  --btn-h-lg: 4.5rem;
+  --btn-h-xlg: 6.4rem;
+  --btn-px-xsm: 1rem;
+  --btn-px-sm: 1.2rem;
+  --btn-px-md: 1.6rem;
+  --btn-px-lg: 2rem;
+  --btn-px-xlg: 2.4rem;
+  --btn-rd-xsm: .4rem;
+  --btn-rd-sm: .6rem;
+  --btn-rd-md: .8rem;
+  --btn-rd-lg: .8rem;
+  --btn-rd-xlg: .8rem;
+  --btn-fz-xsm: 1.5rem;
+  --btn-fz-sm: 1.7rem;
+  --btn-fz-md: 1.7rem;
+  --btn-fz-lg: 1.9rem;
+  --btn-fz-xlg: 1.9rem;
+  --btnChipFill-h-md: 3.2rem;
+  --btnChipFill-h-lg: 3.6rem;
+  --btnChipFill-pd-md: 0rem 1.2rem;
+  --btnChipFill-pd-lg: 0rem 1.2rem;
+  --btnChipFill-rd-md: .6rem;
+  --btnChipFill-rd-lg: .6rem;
+  --btnChipFill-fz-md: 1.5rem;
+  --btnChipFill-fz-lg: 1.7rem;
+  --btnChipOutline-h-md: 3.2rem;
+  --btnChipOutline-h-lg: 3.6rem;
+  --btnChipOutline-pd-md: 0rem 1.2rem;
+  --btnChipOutline-pd-lg: 0rem 1.2rem;
+  --btnChipOutline-rd-md: 10rem;
+  --btnChipOutline-rd-lg: 10rem;
+  --btnChipOutline-fz-md: 1.5rem;
+  --btnChipOutline-fz-lg: 1.7rem;
+  --btnChipOutline-gap-md: .2rem;
+  --btnChipOutline-gap-lg: .2rem;
+  --btnChipOutline-size-md: 1.2rem;
+  --btnChipOutline-size-lg: 1.6rem;
+  --input-h-xsm: 2.8rem;
+  --input-h-sm: 4rem;
+  --input-h-md: 4.8rem;
+  --input-h-lg: 5.6rem;
+  --input-h-xlg: 8rem;
+  --input-px-sm: 1.6rem;
+  --input-px-md: 1.6rem;
+  --input-px-lg: 1.2rem;
+  --input-px-xlg: 2.4rem;
+  --input-rd-sm: .6rem;
+  --input-rd-md: .6rem;
+  --input-rd-lg: .8rem;
+  --input-rd-xlg: 1.2rem;
+  --input-fz-sm: 1.5rem;
+  --input-fz-md: 1.7rem;
+  --input-fz-lg: 1.9rem;
+  --input-fz-xlg: 2.5rem;
+  --rdo-size-sm: 2rem;
+  --rdo-size-md: 2rem;
+  --rdo-size-lg: 2.4rem;
+  --rdo-chk-sm: .8rem;
+  --rdo-chk-md: 1rem;
+  --rdo-chk-lg: 1.4rem;
+  --rdo-pos-sm: .2rem;
+  --rdo-pos-md: .5rem;
+  --rdo-pos-lg: 1rem;
+  --rdo-fz-sm: 1.5rem;
+  --rdo-fz-md: 1.7rem;
+  --rdo-fz-lg: 1.9rem;
+  --chk-size-sm: 2rem;
+  --chk-size-md: 2rem;
+  --chk-size-lg: 2.4rem;
+  --chk-primary-chk-sm: 1.2rem;
+  --chk-primary-chk-md: 1.6rem;
+  --chk-primary-chk-lg: 2rem;
+  --chk-secondary-chk-md: 2rem;
+  --chk-pos-md: .5rem;
+  --chk-fz-sm: 1.4rem;
+  --chk-fz-md: 1.7rem;
+  --chk-fz-lg: 1.9rem;
+  --select-h-sm: 4rem;
+  --select-h-md: 4.8rem;
+  --select-h-lg: 5.6rem;
+  --select-pd-sm: 0 4rem 0 1.2rem;
+  --select-pd-md: 0 5.2rem 0 1.6rem;
+  --select-pd-lg: 0 5.2rem 0 1.6rem;
+  --select-rd-sm: .6rem;
+  --select-rd-md: .8rem;
+  --select-rd-lg: .8rem;
+  --select-fz-sm: 1.5rem;
+  --select-fz-md: 1.7rem;
+  --select-fz-lg: 1.9rem;
+  --select-rn-sm: 1.6rem;
+  --select-rn-md: 1.6rem;
+  --select-rn-lg: 1.6rem;
+  --select-bgs-sm: 2rem;
+  --select-bgs-md: 2rem;
+  --select-bgs-lg: 2.4rem;
+  --switch-h-md: 2rem;
+  --switch-h-lg: 2.4rem;
+  --switch-w-md: 3.2rem;
+  --switch-w-lg: 4rem;
+  --switch-b-md: 1.6rem;
+  --switch-b-lg: 2rem;
+  --switch-br-md: 0.2rem;
+  --switch-br-lg: 0.2rem;
+  --switch-pd-md: 0.8rem;
+  --switch-pd-lg: 0.8rem;
+  --switch-rd-md: 4rem;
+  --switch-rd-lg: 4rem;
+  --switch-fz-md: 1.7rem;
+  --switch-fz-lg: 1.9rem;
+  --rdoChipOutline-h-sm: 3.2rem;
+  --rdoChipOutline-h-md: 4rem;
+  --rdoChipOutline-h-lg: 4.8rem;
+  --rdoChipOutline-pd-sm: 0 1rem;
+  --rdoChipOutline-pd-md: 0 1.2rem;
+  --rdoChipOutline-pd-lg: 0 1.6rem;
+  --rdoChipOutline-rd-sm: .6rem;
+  --rdoChipOutline-rd-md: .6rem;
+  --rdoChipOutline-rd-lg: .8rem;
+  --rdoChipOutline-fz-sm: 1.5rem;
+  --rdoChipOutline-fz-md: 1.7rem;
+  --rdoChipOutline-fz-lg: 1.7rem;
+  --chkChipOutline-h-sm: 3.2rem;
+  --chkChipOutline-h-md: 4rem;
+  --chkChipOutline-h-lg: 4.8rem;
+  --chkChipOutline-pd-sm: 0 1rem 0 .8rem;
+  --chkChipOutline-pd-md: 0 1.2rem 0 1rem;
+  --chkChipOutline-pd-lg: 0 1.6rem 0 1.2rem;
+  --chkChipOutline-rd-sm: .6rem;
+  --chkChipOutline-rd-md: .6rem;
+  --chkChipOutline-rd-lg: .8rem;
+  --chkChipOutline-fz-sm: 1.5rem;
+  --chkChipOutline-fz-md: 1.7rem;
+  --chkChipOutline-fz-lg: 1.7rem;
+  --chkChipOutline-gap-sm: .4rem;
+  --chkChipOutline-gap-md: .4rem;
+  --chkChipOutline-gap-lg: .4rem;
+  --chkChipOutline-ico-sm: 1.6rem;
+  --chkChipOutline-ico-md: 2rem;
+  --chkChipOutline-ico-lg: 2rem;
+  --box-rd-sm: .6rem;
+  --tab-h-full: 5.6rem;
+  --tab-h-fill: 4.8rem;
+  --tab-h-line: 4.8rem;
+  --tab-fz-full: 1.9rem;
+  --tab-fz-fill: 1.9rem;
+  --tab-fz-ilne: 1.9rem;
+  --tab-px-full: 0;
+  --tab-px-fill: 1.6rem;
+  --tab-px-line: .2rem;
+  --tab-ml-full: 0;
+  --tab-ml-fill: .8rem;
+  --tab-ml-line: 1.6rem;
+  --tab-rd-full: .8rem;
+  --tab-rd-fill: .8rem;
+  --tab-rd-line: 0;
+  --spacer-50: 20rem;
+  --spacer-49: 19.6rem;
+  --spacer-48: 19.2rem;
+  --spacer-47: 18.8rem;
+  --spacer-46: 18.4rem;
+  --spacer-45: 18rem;
+  --spacer-44: 17.6rem;
+  --spacer-43: 17.2rem;
+  --spacer-42: 16.8rem;
+  --spacer-41: 16.4rem;
+  --spacer-40: 16rem;
+  --spacer-39: 15.6rem;
+  --spacer-38: 15.2rem;
+  --spacer-37: 14.8rem;
+  --spacer-36: 14.4rem;
+  --spacer-35: 14rem;
+  --spacer-34: 13.6rem;
+  --spacer-33: 13.2rem;
+  --spacer-32: 12.8rem;
+  --spacer-31: 12.4rem;
+  --spacer-30: 12rem;
+  --spacer-29: 11.6rem;
+  --spacer-28: 11.2rem;
+  --spacer-27: 10.8rem;
+  --spacer-26: 10.4rem;
+  --spacer-25: 10rem;
+  --spacer-24: 9.6rem;
+  --spacer-23: 9.2rem;
+  --spacer-22: 8.8rem;
+  --spacer-21: 8.4rem;
+  --spacer-20: 8rem;
+  --spacer-19: 7.6rem;
+  --spacer-18: 7.2rem;
+  --spacer-17: 6.8rem;
+  --spacer-16: 6.4rem;
+  --spacer-15: 6rem;
+  --spacer-14: 5.6rem;
+  --spacer-13: 5.2rem;
+  --spacer-12: 4.8rem;
+  --spacer-11: 4.4rem;
+  --spacer-10: 4rem;
+  --spacer-9: 3.6rem;
+  --spacer-8: 3.2rem;
+  --spacer-7: 2.8rem;
+  --spacer-6: 2.4rem;
+  --spacer-5: 2rem;
+  --spacer-4: 1.6rem;
+  --spacer-3: 1.2rem;
+  --spacer-2: 0.8rem;
+  --spacer-1: 0.4rem;
+  --spacer-0: 0;
+  --spacer-default: .1rem;
+  --spacer-default2: .2rem;
+  --spacer-full: 100%;
+}
+
+/* *********************************************************************************
+ *	링크 포커스(접근성)
+ * *********************************************************************************/
+a:focus,
+button:focus {
+  outline-offset: -2px;
+  outline: 2px solid rgba(36, 107, 235, 0.8)
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus,
+input[type="number"]:focus {
+  outline: 2px solid rgba(36, 107, 235, 0.8)
+}
+
+/* *********************************************************************************
+ *	건너뛰기 메뉴 정의
+ * *********************************************************************************/
+#skip-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  width: 100%;
+  text-align: center;
+  background-color: var(--gray-90)
+}
+
+#skip-nav a:not(:focus) {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important
+}
+
+#skip-nav a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  outline-offset: -0.4rem;
+  outline: 2px solid rgba(255, 255, 255, 0.9);
+  font-size: 1.5rem;
+  color: var(--white);
+  width: 100%;
+  height: 3.2rem;
+  margin: 0 auto;
+  text-align: center
+}
+
+/* *********************************************************************************
+*	Input
+* *********************************************************************************/
+label {
+  cursor: pointer
+}
+
+/* *********************************************************************************
+*	정렬
+* *********************************************************************************/
+.txt_left {
+  text-align: left !important
+}
+
+.txt_center {
+  text-align: center !important
+}
+
+.txt_right {
+  text-align: right !important
+}
+
+.top {
+  vertical-align: top !important
+}
+
+.middle {
+  vertical-align: middle !important
+}
+
+.bottom {
+  vertical-align: bottom !important
+}
+
+/* *********************************************************************************
+ *	Float
+ * *********************************************************************************/
+.fl {
+  float: left
+}
+
+.fr {
+  float: right
+}
+
+.clear:after {
+  clear: both;
+  display: block;
+  content: ""
+}
+
+/* *********************************************************************************
+*	button
+* *********************************************************************************/
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  width: auto;
+  height: var(--btn-h-lg);
+  padding: 0 var(--btn-px-lg);
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: var(--btn-rd-xsm);
+  font-size: var(--fz-body-lg);
+  color: var(--white);
+  font-weight: 400;
+  line-height: 1;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: 0.3s ease-in-out
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--primary-60);
+  border-color: var(--primary-60)
+}
+
+.btn.sm {
+  height: 4rem;
+  padding: 0 var(--btn-px-sm);
+  border-radius: var(--btn-rd-xsm);
+  font-size: var(--btn-fz-sm)
+}
+
+.btn[class*=ico-].ico-before::before {
+  display: inline-flex;
+  content: "";
+  width: 2.4rem;
+  height: 2.4rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center
+}
+
+.btn-txt {
+  color: inherit;
+  border: 0;
+  background-color: inherit;
+  padding: 0 var(--spacer-default2) !important;
+  font-size: 1.5rem
+}
+
+.btn-txt:hover,
+.btn-txt:active {
+  background-color: inherit
+}
+
+.btn-txt.sm[class*=ico-]::before,
+.btn-txt.sm[class*=ico-]::after {
+  width: 2rem;
+  height: 2rem
+}
+
+.btn-txt.ico-log::before,
+.btn-txt.ico-log::after {
+  background-image: url(/public/img/layout/icon_logout.svg)
+}
+
+.btn-txt:hover,
+.btn-txt:focus {
+  background-color: var(--secondary-5)
+}
+
+.btn-txt:active {
+  background-color: var(--secondary-10)
+}
+
+/* *********************************************************************************
+ *	Margin
+ * *********************************************************************************/
+.m0 {
+  margin: 0 !important
+}
+
+.mt_0 {
+  margin-top: 0 !important
+}
+
+.mt_5 {
+  margin-top: .5rem !important
+}
+
+.mt_10 {
+  margin-top: 1rem !important
+}
+
+.mt_15 {
+  margin-top: 1.5rem !important
+}
+
+.mt_20 {
+  margin-top: 2rem !important
+}
+
+.mt_25 {
+  margin-top: 2.5rem !important
+}
+
+.mt_30 {
+  margin-top: 3rem !important
+}
+
+.mt_35 {
+  margin-top: 3.5rem !important
+}
+
+.mt_40 {
+  margin-top: 4rem !important
+}
+
+.mb_0 {
+  margin-bottom: 0 !important
+}
+
+.mb_5 {
+  margin-bottom: .5rem !important
+}
+
+.mb_10 {
+  margin-bottom: 1rem !important
+}
+
+.mb_15 {
+  margin-bottom: 1.5rem !important
+}
+
+.mb_20 {
+  margin-bottom: 2rem !important
+}
+
+.mb_25 {
+  margin-bottom: 2.5rem !important
+}
+
+.mb_30 {
+  margin-bottom: 3rem !important
+}
+
+.mb_35 {
+  margin-bottom: 3.5rem !important
+}
+
+.mb_40 {
+  margin-bottom: 4rem !important
+}
+
+.ml_0 {
+  margin-left: 0 !important
+}
+
+.ml_5 {
+  margin-left: .5rem !important
+}
+
+.ml_10 {
+  margin-left: 1rem !important
+}
+
+.ml_15 {
+  margin-left: 1.5rem !important
+}
+
+.ml_20 {
+  margin-left: 2rem !important
+}
+
+.ml_25 {
+  margin-left: 2.5rem !important
+}
+
+.ml_30 {
+  margin-left: 3rem !important
+}
+
+.ml_35 {
+  margin-left: 3.5rem !important
+}
+
+.ml_40 {
+  margin-left: 4rem !important
+}
+
+.mr_0 {
+  margin-right: 0 !important
+}
+
+.mr_5 {
+  margin-right: .5rem !important
+}
+
+.mr_10 {
+  margin-right: 1rem !important
+}
+
+.mr_15 {
+  margin-right: 1.5rem !important
+}
+
+.mr_20 {
+  margin-right: 2rem !important
+}
+
+.mr_25 {
+  margin-right: 2.5rem !important
+}
+
+.mr_30 {
+  margin-right: 3rem !important
+}
+
+.mr_35 {
+  margin-right: 3.5rem !important
+}
+
+.mr_40 {
+  margin-right: 4rem !important
+}
+
+.mr_auto {
+  margin-right: auto !important
+}
+
+.ml_auto {
+  margin-left: auto !important
+}
+
+/* *********************************************************************************
+ *	Padding
+ * *********************************************************************************/
+.p0 {
+  padding: 0 !important
+}
+
+.pt_5 {
+  padding-top: .5rem !important
+}
+
+.pt_10 {
+  padding-top: 1rem !important
+}
+
+.pt_15 {
+  padding-top: 1.5rem !important
+}
+
+.pt_20 {
+  padding-top: 2rem !important
+}
+
+.pt_25 {
+  padding-top: 2.5rem !important
+}
+
+.pt_30 {
+  padding-top: 3rem !important
+}
+
+.pt_35 {
+  padding-top: 3.5rem !important
+}
+
+.pt_40 {
+  padding-top: 4rem !important
+}
+
+.pb_5 {
+  padding-bottom: .5rem !important
+}
+
+.pb_10 {
+  padding-bottom: 1rem !important
+}
+
+.pb_15 {
+  padding-bottom: 1.5rem !important
+}
+
+.pb_20 {
+  padding-bottom: 2rem !important
+}
+
+.pb_25 {
+  padding-bottom: 2.5rem !important
+}
+
+.pb_30 {
+  padding-bottom: 3rem !important
+}
+
+.pb_35 {
+  padding-bottom: 3.5rem !important
+}
+
+.pb_40 {
+  padding-bottom: 4rem !important
+}
+
+.pl_5 {
+  padding-left: 5px !important
+}
+
+.pl_10 {
+  padding-left: 10px !important
+}
+
+.pl_15 {
+  padding-left: 15px !important
+}
+
+.pl_20 {
+  padding-left: 20px !important
+}
+
+.pl_25 {
+  padding-left: 25px !important
+}
+
+.pl_30 {
+  padding-left: 30px !important
+}
+
+.pl_35 {
+  padding-left: 35px !important
+}
+
+.pl_40 {
+  padding-left: 40px !important
+}
+
+.pr_5 {
+  padding-right: 5px !important
+}
+
+.pr_10 {
+  padding-right: 10px !important
+}
+
+.pr_15 {
+  padding-right: 15px !important
+}
+
+.pr_20 {
+  padding-right: 20px !important
+}
+
+.pr_25 {
+  padding-right: 25px !important
+}
+
+.pr_30 {
+  padding-right: 30px !important
+}
+
+.pr_35 {
+  padding-right: 35px !important
+}
+
+.pr_40 {
+  padding-right: 40px !important
+}
+
+/* width(rem) */
+.w50 {
+  width: 5rem !important
+}
+
+.w55 {
+  width: 5.5rem !important
+}
+
+.w60 {
+  width: 6rem !important
+}
+
+.w65 {
+  width: 6.5rem !important
+}
+
+.w70 {
+  width: 7rem !important
+}
+
+.w75 {
+  width: 7.5rem !important
+}
+
+.w80 {
+  width: 8rem !important
+}
+
+.w85 {
+  width: 8.5rem !important
+}
+
+.w90 {
+  width: 9rem !important
+}
+
+.w95 {
+  width: 9.5rem !important
+}
+
+.w100 {
+  width: 10rem !important
+}
+
+.w110 {
+  width: 11rem !important
+}
+
+.w120 {
+  width: 12rem !important
+}
+
+.w130 {
+  width: 13rem !important
+}
+
+.w140 {
+  width: 14rem !important
+}
+
+.w150 {
+  width: 15rem !important
+}
+
+.w160 {
+  width: 16rem !important
+}
+
+.w170 {
+  width: 17rem !important
+}
+
+.w180 {
+  width: 18rem !important
+}
+
+.w190 {
+  width: 19rem !important
+}
+
+.w200 {
+  width: 20rem !important
+}
+
+.w210 {
+  width: 21rem !important
+}
+
+.w220 {
+  width: 22rem !important
+}
+
+.w230 {
+  width: 23rem !important
+}
+
+.w240 {
+  width: 24rem !important
+}
+
+.w250 {
+  width: 25rem !important
+}
+
+.w260 {
+  width: 26rem !important
+}
+
+.w270 {
+  width: 27rem !important
+}
+
+.w280 {
+  width: 28rem !important
+}
+
+.w290 {
+  width: 29rem !important
+}
+
+.w300 {
+  width: 30rem !important
+}
+
+.w350 {
+  width: 35rem !important
+}
+
+.w400 {
+  width: 40rem !important
+}
+
+.w450 {
+  width: 45rem !important
+}
+
+.w500 {
+  width: 50rem !important
+}
+
+/* width(%) */
+.w10p {
+  width: 10% !important
+}
+
+.w15p {
+  width: 15% !important
+}
+
+.w20p {
+  width: 20% !important
+}
+
+.w25p {
+  width: 25% !important
+}
+
+.w30p {
+  width: 30% !important
+}
+
+.w35p {
+  width: 35% !important
+}
+
+.w40p {
+  width: 40% !important
+}
+
+.w45p {
+  width: 45% !important
+}
+
+.w50p {
+  width: 50% !important
+}
+
+.w55p {
+  width: 55% !important
+}
+
+.w60p {
+  width: 60% !important
+}
+
+.w65p {
+  width: 65% !important
+}
+
+.w70p {
+  width: 70% !important
+}
+
+.w75p {
+  width: 75% !important
+}
+
+.w80p {
+  width: 80% !important
+}
+
+.w85p {
+  width: 85% !important
+}
+
+.w90p {
+  width: 90% !important
+}
+
+.w95p {
+  width: 95% !important
+}
+
+.w100p {
+  width: 100% !important
+}
+
+/* *********************************************************************************
+ *	font-size
+ * *********************************************************************************/
+.fs10 {
+  font-size: 1rem !important
+}
+
+.fs11 {
+  font-size: 1.1rem !important
+}
+
+.fs12 {
+  font-size: 1.2rem !important
+}
+
+.fs13 {
+  font-size: 1.3rem !important
+}
+
+.fs14 {
+  font-size: 1.4rem !important
+}
+
+.fs15 {
+  font-size: 1.5rem !important
+}
+
+.fs16 {
+  font-size: 1.6rem !important
+}
+
+.fs17 {
+  font-size: 1.7rem !important
+}
+
+.fs18 {
+  font-size: 1.8rem !important
+}
+
+.fs19 {
+  font-size: 1.9rem !important
+}
+
+.fs20 {
+  font-size: 2rem !important
+}
+
+.fs21 {
+  font-size: 2.1rem !important
+}
+
+.fs22 {
+  font-size: 2.2rem !important
+}
+
+.fs23 {
+  font-size: 2.3rem !important
+}
+
+.fs24 {
+  font-size: 2.4rem !important
+}
+
+.fs25 {
+  font-size: 2.5rem !important
+}
+
+/* *********************************************************************************
+ *	display
+ * *********************************************************************************/
+.dp_none {
+  display: none !important
+}
+
+.dp_blck {
+  display: block !important
+}
+
+.dp_in_blck {
+  display: inline-block !important
+}
+
+.dp_flx {
+  display: flex !important
+}
+
+.dp_in_flx {
+  display: inline-flex !important
+}
+
+
+/* 반응형(REM단위 기준) */
+@media (max-width:1024px) {
+  html {
+    font-size: 9px
+  }
+}
+
+@media (max-width:600px) {
+  html {
+    font-size: 8px
+  }
+}
+
+@media (max-width:300px) {
+  html {
+    font-size: 7px
+  }
+}

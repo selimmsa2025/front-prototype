@@ -1,0 +1,170 @@
+{
+  "apiLogs": [
+    {
+      "id": 1,
+      "apiName": "사용자 관리 API",
+      "method": "GET",
+      "endpoint": "/api/users",
+      "status": 200,
+      "responseTime": 120,
+      "timestamp": "2024-01-15 14:30:25",
+      "ip": "192.168.1.100",
+      "userAgent": "Mozilla/5.0..."
+    },
+    {
+      "id": 2,
+      "apiName": "결제 처리 API",
+      "method": "POST",
+      "endpoint": "/api/payment",
+      "status": 500,
+      "responseTime": 250,
+      "timestamp": "2024-01-15 14:29:15",
+      "ip": "192.168.1.101",
+      "userAgent": "Mozilla/5.0..."
+    },
+    {
+      "id": 3,
+      "apiName": "상품 조회 API",
+      "method": "GET",
+      "endpoint": "/api/products",
+      "status": 200,
+      "responseTime": 85,
+      "timestamp": "2024-01-15 14:28:45",
+      "ip": "192.168.1.102",
+      "userAgent": "Mozilla/5.0..."
+    }
+  ],
+  "apiMetrics": {
+    "totalCalls": 15420,
+    "successfulCalls": 15350,
+    "failedCalls": 70,
+    "averageResponseTime": 145,
+    "peakResponseTime": 450
+  },
+  "errorLogs": [
+    {
+      "id": 1,
+      "apiName": "결제 처리 API",
+      "error": "Database connection timeout",
+      "timestamp": "2024-01-15 14:29:15",
+      "severity": "high"
+    },
+    {
+      "id": 2,
+      "apiName": "알림 발송 API",
+      "error": "Invalid email format",
+      "timestamp": "2024-01-15 14:25:30",
+      "severity": "medium"
+    }
+  ],
+  "rateLimits": [
+    {
+      "apiName": "사용자 관리 API",
+      "limit": 1000,
+      "current": 450,
+      "resetTime": "2024-01-15 15:00:00"
+    },
+    {
+      "apiName": "상품 조회 API",
+      "limit": 5000,
+      "current": 3200,
+      "resetTime": "2024-01-15 15:00:00"
+    }
+  ],
+  "apiDetails": [
+    {
+      "id": 1,
+      "name": "User API",
+      "endpoint": "/users",
+      "method": "GET",
+      "url": "https://api.example.com/users",
+      "description": "유저 목록 조회",
+      "testResult": "성공",
+      "registeredAt": "2023.07.01",
+      "lastTestedAt": "2023.07.25 10:23",
+      "status": "success",
+      "category": "메일",
+      "parameters": [
+        { "name": "userId", "type": "string", "required": true, "description": "유저 ID" },
+        { "name": "active", "type": "boolean", "required": false, "description": "활성화 여부" }
+      ],
+      "responseExample": {
+        "users": [
+          { "userId": "u001", "name": "홍길동", "active": true },
+          { "userId": "u002", "name": "김철수", "active": false }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Order API",
+      "endpoint": "/orders",
+      "method": "POST",
+      "url": "https://api.example.com/orders",
+      "description": "주문 생성",
+      "testResult": "실패",
+      "registeredAt": "2023.06.20",
+      "lastTestedAt": "2023.07.22 14:17",
+      "status": "fail",
+      "category": "드라이브",
+      "parameters": [
+        { "name": "orderId", "type": "string", "required": true, "description": "주문 ID" },
+        { "name": "amount", "type": "number", "required": true, "description": "주문 금액" },
+        { "name": "coupon", "type": "string", "required": false, "description": "쿠폰 코드" }
+      ],
+      "responseExample": {
+        "orderId": "o1234",
+        "status": "created",
+        "amount": 50000,
+        "discount": 5000
+      }
+    },
+    {
+      "id": 3,
+      "name": "Product API",
+      "endpoint": "/products",
+      "method": "PUT",
+      "url": "https://api.example.com/products",
+      "description": "상품 정보 수정",
+      "testResult": "성공",
+      "registeredAt": "2023.05.15",
+      "lastTestedAt": "2023.07.20 08:45",
+      "status": "success",
+      "category": "패키지",
+      "parameters": [
+        { "name": "productId", "type": "string", "required": true, "description": "상품 ID" },
+        { "name": "price", "type": "number", "required": true, "description": "상품 가격" },
+        { "name": "stock", "type": "number", "required": false, "description": "재고 수량" }
+      ],
+      "responseExample": {
+        "productId": "p1001",
+        "name": "노트북",
+        "price": 1200000,
+        "stock": 15,
+        "updated": true
+      }
+    },
+    {
+      "id": 4,
+      "name": "Payment API",
+      "endpoint": "/payments",
+      "method": "DELETE",
+      "url": "https://api.example.com/payments",
+      "description": "결제 취소",
+      "testResult": "성공",
+      "registeredAt": "2023.04.10",
+      "lastTestedAt": "2023.07.24 16:02",
+      "status": "success",
+      "category": "패키지",
+      "parameters": [
+        { "name": "paymentId", "type": "string", "required": true, "description": "결제 ID" },
+        { "name": "reason", "type": "string", "required": false, "description": "취소 사유" }
+      ],
+      "responseExample": {
+        "paymentId": "pay2023-01",
+        "status": "cancelled",
+        "cancelReason": "고객 요청"
+      }
+    }
+  ]
+} 

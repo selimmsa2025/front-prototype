@@ -1,0 +1,74 @@
+{
+  "apiLogs": [
+    {
+      "id": 1,
+      "apiName": "사용자 관리 API",
+      "method": "GET",
+      "endpoint": "/api/users",
+      "status": 200,
+      "responseTime": 120,
+      "timestamp": "2024-01-15 14:30:25",
+      "ip": "192.168.1.100",
+      "userAgent": "Mozilla/5.0..."
+    },
+    {
+      "id": 2,
+      "apiName": "결제 처리 API",
+      "method": "POST",
+      "endpoint": "/api/payment",
+      "status": 500,
+      "responseTime": 250,
+      "timestamp": "2024-01-15 14:29:15",
+      "ip": "192.168.1.101",
+      "userAgent": "Mozilla/5.0..."
+    },
+    {
+      "id": 3,
+      "apiName": "상품 조회 API",
+      "method": "GET",
+      "endpoint": "/api/products",
+      "status": 200,
+      "responseTime": 85,
+      "timestamp": "2024-01-15 14:28:45",
+      "ip": "192.168.1.102",
+      "userAgent": "Mozilla/5.0..."
+    }
+  ],
+  "apiMetrics": {
+    "totalCalls": 15420,
+    "successfulCalls": 15350,
+    "failedCalls": 70,
+    "averageResponseTime": 145,
+    "peakResponseTime": 450
+  },
+  "errorLogs": [
+    {
+      "id": 1,
+      "apiName": "결제 처리 API",
+      "error": "Database connection timeout",
+      "timestamp": "2024-01-15 14:29:15",
+      "severity": "high"
+    },
+    {
+      "id": 2,
+      "apiName": "알림 발송 API",
+      "error": "Invalid email format",
+      "timestamp": "2024-01-15 14:25:30",
+      "severity": "medium"
+    }
+  ],
+  "rateLimits": [
+    {
+      "apiName": "사용자 관리 API",
+      "limit": 1000,
+      "current": 450,
+      "resetTime": "2024-01-15 15:00:00"
+    },
+    {
+      "apiName": "상품 조회 API",
+      "limit": 5000,
+      "current": 3200,
+      "resetTime": "2024-01-15 15:00:00"
+    }
+  ]
+} 

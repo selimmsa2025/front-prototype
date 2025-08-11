@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title":"안동 국제 탈춤 페스티벌1",
+    "period": "2024.09.27 ~ 2024.10.06",
+    "location": "경상북도 안동시 경동로 684(운흥동)",
+    "entranceFee":"무료(일부 유료)",
+    "src":"../img/main/poster_img1.jpg",
+    "tag":"D-30"
+  },
+  {
+    "id": 2,
+    "title":"안동 국제 탈춤 페스티벌2",
+    "period": "2024.09.27 ~ 2024.10.06",
+    "location": "경상북도 안동시 경동로 684(운흥동)",
+    "entranceFee":"무료(일부 유료)",
+    "src":"../img/main/poster_img2.jpg",
+    "tag":"D-30"
+  },
+  {
+    "id": 3,
+    "title":"안동 국제 탈춤 페스티벌3",
+    "period": "2024.09.27 ~ 2024.10.06",
+    "location": "경상북도 안동시 경동로 684(운흥동)",
+    "entranceFee":"무료(일부 유료)",
+    "src":"../img/main/poster_img3.jpg",
+    "tag":"D-30"
+  },
+  {
+    "id": 4,
+    "title":"안동 국제 탈춤 페스티벌4",
+    "period": "2024.09.27 ~ 2024.10.06",
+    "location": "경상북도 안동시 경동로 684(운흥동)",
+    "entranceFee":"무료(일부 유료)",
+    "src":"../img/main/poster_img4.jpg",
+    "tag":"D-30"
+  },
+  {
+    "id": 5,
+    "title":"안동 국제 탈춤 페스티벌5",
+    "period": "2024.09.27 ~ 2024.10.06",
+    "location": "경상북도 안동시 경동로 684(운흥동)",
+    "entranceFee":"무료(일부 유료)",
+    "src":"../img/main/poster_img5.jpg",
+    "tag":"D-30"
+  },
+  {
+    "id": 6,
+    "title":"안동 국제 탈춤 페스티벌6",
+    "period": "2024.09.27 ~ 2024.10.06",
+    "location": "경상북도 안동시 경동로 684(운흥동)",
+    "entranceFee":"무료(일부 유료)",
+    "src":"../img/main/poster_img6.jpg",
+    "tag":"D-30"
+  }
+]

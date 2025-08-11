@@ -1,0 +1,77 @@
+.react-datepicker-wrapper{
+  width : 100% !important;
+}
+.left_tree.left{
+  min-width: 26rem;
+}
+
+
+/* 게시판 대댓글 css */
+/* type3 */
+.comment_bx .list .re.type3 .comment {
+  padding-left: 20.6rem
+}
+.comment_bx .list .re.type3 .img {
+  left: 12rem
+}
+.comment_bx .list .re.type3::before {
+  left: 10rem
+}
+
+/* type4 */
+.comment_bx .list .re.type4 .comment {
+  padding-left: 24.6rem
+}
+.comment_bx .list .re.type4 .img {
+  left: 16rem
+}
+.comment_bx .list .re.type4::before {
+  left: 14rem
+}
+
+/* type5 */
+.comment_bx .list .re.type5 .comment {
+  padding-left: 28.6rem
+}
+.comment_bx .list .re.type5 .img {
+  left: 20rem
+}
+.comment_bx .list .re.type5::before {
+  left: 18rem
+}
+
+/* type6 */
+.comment_bx .list .re.type5 .comment {
+  padding-left: 32.6rem
+}
+.comment_bx .list .re.type5 .img {
+  left: 24rem
+}
+.comment_bx .list .re.type5::before {
+  left: 22rem
+}
+
+/* type7 */
+.comment_bx .list .re.type5 .comment {
+  padding-left: 36.6rem
+}
+.comment_bx .list .re.type5 .img {
+  left: 28rem
+}
+.comment_bx .list .re.type5::before {
+  left: 26rem
+}
+
+/* type8 */
+.comment_bx .list .re.type5 .comment {
+  padding-left: 40.6rem
+}
+.comment_bx .list .re.type5 .img {
+  left: 32rem
+}
+.comment_bx .list .re.type5::before {
+  left: 30rem
+}
+
+/* 게시판 댓글 css 끝 */
+

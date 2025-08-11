@@ -1,0 +1,292 @@
+{
+  "centralData": {
+    "institutionData": {
+      "columns": [
+        {
+          "id": "grade",
+          "header": "순위"
+        },
+        {
+          "id": "instName",
+          "header": "기관명"
+        },
+        {
+          "id": "receivedPoint",
+          "header": "받은 협업포인트 실적"
+        },
+        {
+          "id": "sendedPoint",
+          "header": "보낸 협업포인트 실적"
+        },
+        {
+          "id": "totalCount",
+          "header": "현원"
+        }
+      ],
+      "rows": [
+        {
+          "grade": 1,
+          "instName": "울트라기관1",
+          "receivedPoint": "",
+          "sendedPoint": "50",
+          "totalCount": "45"
+        },
+        {
+          "grade": 2,
+          "instName": "울트라기관2",
+          "receivedPoint": "",
+          "sendedPoint": "40",
+          "totalCount": "45"
+        },
+        {
+          "grade": 3,
+          "instName": "울트라기관3",
+          "receivedPoint": "",
+          "sendedPoint": "30",
+          "totalCount": "45"
+        }
+      ]
+    },
+    "departData": {
+      "columns": [
+        {
+          "id": "grade",
+          "header": "순위"
+        },
+        {
+          "id": "instName",
+          "header": "기관명"
+        },
+        {
+          "id": "receivedPoint",
+          "header": "받은 협업포인트 실적"
+        },
+        {
+          "id": "sendedPoint",
+          "header": "보낸 협업포인트 실적"
+        },
+        {
+          "id": "totalCount",
+          "header": "현원"
+        }
+      ],
+      "rows": [
+        {
+          "grade": 1,
+          "instName": "울트라기관1",
+          "receivedPoint": "",
+          "sendedPoint": "50",
+          "totalCount": "45"
+        },
+        {
+          "grade": 2,
+          "instName": "울트라기관2",
+          "receivedPoint": "",
+          "sendedPoint": "40",
+          "totalCount": "45"
+        },
+        {
+          "grade": 3,
+          "instName": "울트라기관3",
+          "receivedPoint": "",
+          "sendedPoint": "30",
+          "totalCount": "45"
+        }
+      ]
+    },
+    "userData": {
+      "columns": [
+        {
+          "id": "grade",
+          "header": "순위"
+        },
+        {
+          "id": "instName",
+          "header": "기관명"
+        },
+        {
+          "id": "receivedPoint",
+          "header": "받은 협업포인트 실적"
+        },
+        {
+          "id": "sendedPoint",
+          "header": "보낸 협업포인트 실적"
+        },
+        {
+          "id": "totalCount",
+          "header": "현원"
+        }
+      ],
+      "rows": [
+        {
+          "grade": 1,
+          "instName": "울트라기관1",
+          "receivedPoint": "",
+          "sendedPoint": "50",
+          "totalCount": "45"
+        },
+        {
+          "grade": 2,
+          "instName": "울트라기관2",
+          "receivedPoint": "",
+          "sendedPoint": "40",
+          "totalCount": "45"
+        },
+        {
+          "grade": 3,
+          "instName": "울트라기관3",
+          "receivedPoint": "",
+          "sendedPoint": "30",
+          "totalCount": "45"
+        }
+      ]
+    },
+    "thanksMsgTotalCnt": 3,
+    "thanksMsgTotalPoint": 125
+  },
+  "localGovData": {
+    "institutionData": {
+      "columns": [
+        {
+          "id": "grade",
+          "header": "순위"
+        },
+        {
+          "id": "instName",
+          "header": "기관명"
+        },
+        {
+          "id": "receivedPoint",
+          "header": "받은 협업포인트 실적"
+        },
+        {
+          "id": "sendedPoint",
+          "header": "보낸 협업포인트 실적"
+        },
+        {
+          "id": "totalCount",
+          "header": "현원"
+        }
+      ],
+      "rows": [
+        {
+          "grade": 1,
+          "instName": "지자체기관1",
+          "receivedPoint": "",
+          "sendedPoint": "50",
+          "totalCount": "45"
+        },
+        {
+          "grade": 2,
+          "instName": "지자체기관2",
+          "receivedPoint": "",
+          "sendedPoint": "40",
+          "totalCount": "45"
+        },
+        {
+          "grade": 3,
+          "instName": "지자체기관3",
+          "receivedPoint": "",
+          "sendedPoint": "30",
+          "totalCount": "45"
+        }
+      ]
+    },
+    "departData": {
+      "columns": [
+        {
+          "id": "grade",
+          "header": "순위"
+        },
+        {
+          "id": "instName",
+          "header": "기관명"
+        },
+        {
+          "id": "receivedPoint",
+          "header": "받은 협업포인트 실적"
+        },
+        {
+          "id": "sendedPoint",
+          "header": "보낸 협업포인트 실적"
+        },
+        {
+          "id": "totalCount",
+          "header": "현원"
+        }
+      ],
+      "rows": [
+        {
+          "grade": 1,
+          "instName": "지자체기관1",
+          "receivedPoint": "",
+          "sendedPoint": "50",
+          "totalCount": "45"
+        },
+        {
+          "grade": 2,
+          "instName": "지자체기관2",
+          "receivedPoint": "",
+          "sendedPoint": "40",
+          "totalCount": "45"
+        },
+        {
+          "grade": 3,
+          "instName": "지자체기관3",
+          "receivedPoint": "",
+          "sendedPoint": "30",
+          "totalCount": "45"
+        }
+      ]
+    },
+    "userData": {
+      "columns": [
+        {
+          "id": "grade",
+          "header": "순위"
+        },
+        {
+          "id": "instName",
+          "header": "기관명"
+        },
+        {
+          "id": "receivedPoint",
+          "header": "받은 협업포인트 실적"
+        },
+        {
+          "id": "sendedPoint",
+          "header": "보낸 협업포인트 실적"
+        },
+        {
+          "id": "totalCount",
+          "header": "현원"
+        }
+      ],
+      "rows": [
+        {
+          "grade": 1,
+          "instName": "지자체기관1",
+          "receivedPoint": "",
+          "sendedPoint": "50",
+          "totalCount": "45"
+        },
+        {
+          "grade": 2,
+          "instName": "지자체기관2",
+          "receivedPoint": "",
+          "sendedPoint": "40",
+          "totalCount": "45"
+        },
+        {
+          "grade": 3,
+          "instName": "지자체기관3",
+          "receivedPoint": "",
+          "sendedPoint": "30",
+          "totalCount": "45"
+        }
+      ]
+    },
+    "thanksMsgTotalCnt": 5,
+    "thanksMsgTotalPoint": 155
+  }
+}

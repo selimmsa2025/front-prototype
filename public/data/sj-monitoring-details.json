@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "service": "브리티웍스",
+    "status": "healthy",
+    "responseTime": 120,
+    "errorRate": 0.2,
+    "lastEvent": {
+      "type": "info",
+      "message": "정상 운영 중"
+    }
+  },
+  {
+    "id": 2,
+    "service": "네이버웍스",
+    "status": "healthy",
+    "responseTime": 85,
+    "errorRate": 0.1,
+    "lastEvent": {
+      "type": "info",
+      "message": "정상 운영 중"
+    }
+  },
+  {
+    "id": 3,
+    "service": "한컴오피스",
+    "status": "warning",
+    "responseTime": 200,
+    "errorRate": 1.5,
+    "lastEvent": {
+      "type": "warning",
+      "message": "응답 시간 지연"
+    }
+  },
+  {
+    "id": 4,
+    "service": "안랩 V3",
+    "status": "healthy",
+    "responseTime": 95,
+    "errorRate": 0.3,
+    "lastEvent": {
+      "type": "info",
+      "message": "정상 운영 중"
+    }
+  },
+  {
+    "id": 5,
+    "service": "API 서비스",
+    "status": "error",
+    "responseTime": 350,
+    "errorRate": 2.8,
+    "lastEvent": {
+      "type": "error",
+      "message": "서비스 연결 오류"
+    }
+  },
+  {
+    "id": 6,
+    "service": "데이터베이스",
+    "status": "healthy",
+    "responseTime": 75,
+    "errorRate": 0.1,
+    "lastEvent": {
+      "type": "info",
+      "message": "정상 운영 중"
+    }
+  },
+  {
+    "id": 7,
+    "service": "파일 스토리지",
+    "status": "warning",
+    "responseTime": 180,
+    "errorRate": 1.2,
+    "lastEvent": {
+      "type": "warning",
+      "message": "저장 공간 부족"
+    }
+  },
+  {
+    "id": 8,
+    "service": "이메일 서비스",
+    "status": "healthy",
+    "responseTime": 110,
+    "errorRate": 0.4,
+    "lastEvent": {
+      "type": "info",
+      "message": "정상 운영 중"
+    }
+  }
+] 

@@ -1,0 +1,9 @@
+{
+  "/review/*": "SaaS운영현황",
+  "/shlee": "SaaS 기관 카탈로그 목록",
+  "/shlee/*": "SaaS 기관 카탈로그 상세",
+  "/shtest": "SaaS 상품 목록",
+  "/dashboard": "Dashboard",
+  "/mypage": "마이페이지",
+  "/": "Home"
+}

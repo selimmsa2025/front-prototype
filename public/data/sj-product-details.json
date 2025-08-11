@@ -1,0 +1,103 @@
+{
+  "productAnalytics": {
+    "topProducts": [
+      {
+        "name": "네이버웍스 패키지",
+        "sales": 128,
+        "rating": 4.0,
+        "growth": 15.2
+      },
+      {
+        "name": "브리티웍스 패키지",
+        "sales": 45,
+        "rating": 4.5,
+        "growth": 8.5
+      },
+      {
+        "name": "브리티웍스 mail",
+        "sales": 89,
+        "rating": 3.8,
+        "growth": 12.3
+      }
+    ],
+    "categoryPerformance": [
+      {
+        "category": "package",
+        "totalSales": 173,
+        "averageRating": 4.25,
+        "totalReviews": 20
+      },
+      {
+        "category": "mail",
+        "totalSales": 89,
+        "averageRating": 3.8,
+        "totalReviews": 7
+      },
+      {
+        "category": "Meeting",
+        "totalSales": 67,
+        "averageRating": 4.2,
+        "totalReviews": 15
+      }
+    ]
+  },
+  "customerReviews": [
+    {
+      "id": 1,
+      "productName": "브리티웍스 패키지",
+      "userName": "김철수",
+      "rating": 5,
+      "comment": "매우 만족스러운 서비스입니다. 특히 통합 관리 기능이 훌륭합니다.",
+      "date": "2024-01-15",
+      "helpful": 12
+    },
+    {
+      "id": 2,
+      "productName": "네이버웍스 패키지",
+      "userName": "이영희",
+      "rating": 4,
+      "comment": "좋은 서비스이지만 가격이 조금 비싸네요. 기능은 훌륭합니다.",
+      "date": "2024-01-14",
+      "helpful": 8
+    },
+    {
+      "id": 3,
+      "productName": "브리티웍스 mail",
+      "userName": "박민수",
+      "rating": 3,
+      "comment": "기본적인 기능은 좋지만 고급 기능이 부족합니다.",
+      "date": "2024-01-13",
+      "helpful": 5
+    }
+  ],
+  "salesTrends": {
+    "monthly": [
+      { "month": "1월", "sales": 45, "reviews": 8 },
+      { "month": "2월", "sales": 52, "reviews": 12 },
+      { "month": "3월", "sales": 48, "reviews": 10 },
+      { "month": "4월", "sales": 61, "reviews": 15 },
+      { "month": "5월", "sales": 58, "reviews": 13 },
+      { "month": "6월", "sales": 67, "reviews": 18 }
+    ]
+  },
+  "inventoryStatus": [
+    {
+      "productName": "브리티웍스 패키지",
+      "status": "in_stock",
+      "available": 100,
+      "reserved": 15
+    },
+    {
+      "productName": "네이버웍스 패키지",
+      "status": "low_stock",
+      "available": 25,
+      "reserved": 8
+    },
+    {
+      "productName": "브리티웍스 mail",
+      "status": "in_stock",
+      "available": 200,
+      "reserved": 12
+    }
+  ]
+} 

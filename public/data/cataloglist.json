@@ -1,0 +1,104 @@
+{
+    "product":[
+        {
+            "id": 1,
+            "name": "네이버웍스",
+            "services": [
+            {
+                "title": "패키지",
+                "desc": "전체 이용 서비스",
+                "useYn": true
+            },
+            {
+                "title": "메일",
+                "desc": "메일 서비스",
+                "useYn": false
+            },
+            {
+                "title": "일정",
+                "desc": "일정 서비스",
+                "useYn": false
+            },
+            {
+                "title": "메신저",
+                "desc": "메신저 서비스",
+                "useYn": false
+            }
+        ]
+        },
+        {
+            "id": 2,
+            "name": "브리티웍스",
+            "services": [
+            {
+                "title": "패키지",
+                "desc": "전체 이용 서비스",
+                "useYn": false
+            },
+            {
+                "title": "메일",
+                "desc": "메일 서비스",
+                "useYn": true
+            },
+            {
+                "title": "일정",
+                "desc": "일정 서비스",
+                "useYn": false
+            },
+            {
+                "title": "메신저",
+                "desc": "메신저 서비스",
+                "useYn": false
+            }
+        ]
+        },
+        {
+            "id": 3,
+            "name": "구글웍스",
+            "services": [
+            {
+                "title": "메일",
+                "desc": "메일 서비스",
+                "useYn": false
+            },
+            {
+                "title": "일정",
+                "desc": "일정 서비스",
+                "useYn": false
+            },
+            {
+                "title": "메신저",
+                "desc": "메신저 서비스",
+                "useYn": false
+            }
+        ]
+        },
+        {
+            "id": 4,
+            "name": "LG웍스",
+            "services": [
+            {
+                "title": "패키지",
+                "desc": "패키지 서비스",
+                "useYn": false
+            },
+            {
+                "title": "메일",
+                "desc": "메일 서비스",
+                "useYn": false
+            },
+            {
+                "title": "메신저",
+                "desc": "메신저 서비스",
+                "useYn": false
+            },
+            {
+                "title": "드라이브",
+                "desc": "드라이브 서비스",
+                "useYn": false
+            }
+        ]
+        }
+        
+    ]
+}

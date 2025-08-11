@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "index": 1,
+    "orgname": "행정안전부",
+    "departments": "디지털소통팀",
+    "position": "프로",
+    "userName": "관리자",
+    "attendanceDate": "2024-05-24 09:00:00",
+    "preRegistered": true
+  },
+  {
+    "id": 2,
+    "index": 2,
+    "orgname": "행정안전부1",
+    "departments": "디지털소통팀",
+    "position": "프로",
+    "userName": "관리자1",
+    "attendanceDate": "2024-05-24 09:00:00",
+    "preRegistered": true
+  },
+  {
+    "id": 3,
+    "index": 3,
+    "orgname": "행정안전부2",
+    "departments": "디지털소통팀",
+    "position": "프로",
+    "userName": "관리자2",
+    "attendanceDate": "2024-05-24 09:00:00",
+    "preRegistered": true
+  },
+  {
+    "id": 4,
+    "index": 4,
+    "orgname": "행정안전부3",
+    "departments": "디지털소통팀",
+    "position": "프로",
+    "userName": "관리자3",
+    "attendanceDate": "2024-05-24 09:00:00",
+    "preRegistered": true
+  }
+]

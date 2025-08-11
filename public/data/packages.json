@@ -1,0 +1,50 @@
+[
+  {
+    "name": "네이버 웍스",
+    "status": "정상",
+    "statusType": "normal",
+    "stats": {
+      "organizations": 89,
+      "activeUsers": 1567,
+      "serviceStatus": "정상"
+    },
+    "usage": [
+      {
+        "name": "CPU 사용량",
+        "percentage": 45
+      },
+      {
+        "name": "메모리 사용량",
+        "percentage": 60
+      },
+      {
+        "name": "디스크 사용량",
+        "percentage": 30
+      }
+    ]
+  },
+  {
+    "name": "브리티 웍스",
+    "status": "주의",
+    "statusType": "warning",
+    "stats": {
+      "organizations": 45,
+      "activeUsers": 892,
+      "serviceStatus": "주의"
+    },
+    "usage": [
+      {
+        "name": "CPU 사용량",
+        "percentage": 75
+      },
+      {
+        "name": "메모리 사용량",
+        "percentage": 85
+      },
+      {
+        "name": "디스크 사용량",
+        "percentage": 65
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+/* .rbc-row-segment {
+    .rbc-event {
+        padding: 0;
+        background-color: transparent;
+    }
+} */
+
+.rbc-toolbar button {
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+    color: #ffffff;
+}
+
+.rbc-toolbar button:hover {
+    background-color: #1a252f;
+    border-color: #1a252f;
+    color: #ffffff;
+}
+
+.rbc-toolbar button.rbc-active {
+    background-color: #1a252f;
+    border-color: #1a252f;
+    color: #ffffff;
+}
+
+.rbc-event-content {}

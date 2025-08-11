@@ -1,0 +1,204 @@
+{
+  "stats": {
+    "totalApis": 8,
+    "activeApis": 6,
+    "errorApis": 1,
+    "warningApis": 1
+  },
+  "apis": [
+    {
+      "id": "api_1",
+      "productId": "prod_1",
+      "name": "사용자 정보 조회",
+      "description": "브리티웍스 사용자 계정 정보를 조회하는 API입니다. 사용자 ID를 통해 상세 정보를 가져옵니다.",
+      "endpoint": "/api/saas/brityworks/users/{userId}",
+      "method": "GET",
+      "status": "운영중",
+      "version": "v1.2",
+      "lastUpdateDate": "2024-05-15",
+      "callsLastMonth": 15230,
+      "errorRate": 0.5,
+      "avgResponseTime": 80,
+      "parameters": [
+        {
+          "name": "userId",
+          "in": "path",
+          "description": "조회할 사용자의 고유 ID",
+          "required": true,
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "id": "api_2",
+      "productId": "prod_2",
+      "name": "드라이브 파일 목록 조회",
+      "description": "네이버웍스 사용자의 드라이브 파일 및 폴더 목록을 조회합니다.",
+      "endpoint": "/api/saas/naverworks/drive/files",
+      "method": "GET",
+      "status": "운영중",
+      "version": "v1.0",
+      "lastUpdateDate": "2024-06-01",
+      "callsLastMonth": 8750,
+      "errorRate": 0.2,
+      "avgResponseTime": 120,
+      "parameters": [
+        {
+          "name": "folderId",
+          "in": "query",
+          "description": "조회할 폴더의 ID. 미지정 시 루트 폴더를 조회합니다.",
+          "required": false,
+          "type": "string"
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "description": "한 번에 가져올 파일/폴더의 최대 개수",
+          "required": false,
+          "type": "integer",
+          "default": 30
+        }
+      ]
+    },
+    {
+      "id": "api_3",
+      "productId": "prod_3",
+      "name": "문서 생성",
+      "description": "한컴오피스에서 새로운 문서를 생성합니다. 문서 타입과 제목을 지정할 수 있습니다.",
+      "endpoint": "/api/saas/hancomoffice/docs",
+      "method": "POST",
+      "status": "점검중",
+      "version": "v2.1",
+      "lastUpdateDate": "2024-04-20",
+      "callsLastMonth": 3420,
+      "errorRate": 3.1,
+      "avgResponseTime": 250,
+      "parameters": [
+        {
+          "name": "title",
+          "in": "body",
+          "description": "생성할 문서의 제목",
+          "required": true,
+          "type": "string"
+        },
+        {
+          "name": "docType",
+          "in": "body",
+          "description": "문서 타입 (hwp, hcell, hshow)",
+          "required": true,
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "id": "api_4",
+      "productId": "prod_4",
+      "name": "실시간 보안 검사 요청",
+      "description": "AhnLab V3의 실시간 보안 검사를 요청합니다. 검사 대상 경로를 지정할 수 있습니다.",
+      "endpoint": "/api/saas/ahnlab_v3/scan",
+      "method": "POST",
+      "status": "운영중",
+      "version": "v3.0",
+      "lastUpdateDate": "2024-06-10",
+      "callsLastMonth": 18900,
+      "errorRate": 0.1,
+      "avgResponseTime": 50,
+      "parameters": [
+        {
+          "name": "path",
+          "in": "body",
+          "description": "검사를 시작할 파일 또는 디렉토리 경로",
+          "required": true,
+          "type": "string",
+          "default": "C:\\"
+        }
+      ]
+    },
+    {
+      "id": "api_5",
+      "productId": "prod_5",
+      "name": "라이선스 상태 변경",
+      "description": "Adobe Creative Cloud 제품군의 라이선스 상태를 활성/비활성으로 변경합니다.",
+      "endpoint": "/api/saas/adobe_cc/licenses/{licenseId}",
+      "method": "PUT",
+      "status": "운영중",
+      "version": "v1.5",
+      "lastUpdateDate": "2024-06-05",
+      "callsLastMonth": 560,
+      "errorRate": 0.8,
+      "avgResponseTime": 150,
+      "parameters": [
+        {
+          "name": "licenseId",
+          "in": "path",
+          "description": "변경할 라이선스의 고유 ID",
+          "required": true,
+          "type": "string"
+        },
+        {
+          "name": "status",
+          "in": "body",
+          "description": "변경할 상태 (e.g., 'active', 'inactive')",
+          "required": true,
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "id": "api_6",
+      "productId": "prod_6",
+      "name": "채널 메시지 삭제",
+      "description": "Slack 채널에서 특정 메시지를 삭제합니다. 관리자 권한이 필요합니다.",
+      "endpoint": "/api/saas/slack/channels/{channelId}/messages/{messageId}",
+      "method": "DELETE",
+      "status": "중단됨",
+      "version": "v2.0",
+      "lastUpdateDate": "2024-01-10",
+      "callsLastMonth": 250,
+      "errorRate": 15.2,
+      "avgResponseTime": 320,
+      "parameters": [
+        {
+          "name": "channelId",
+          "in": "path",
+          "description": "메시지가 속한 채널의 ID",
+          "required": true,
+          "type": "string"
+        },
+        {
+          "name": "messageId",
+          "in": "path",
+          "description": "삭제할 메시지의 ID",
+          "required": true,
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "인증 토큰 발급",
+      "endpoint": "/v1/auth/token",
+      "status": "error",
+      "method": "POST",
+      "description": "API 접근을 위한 OAuth2 토큰을 발급합니다. (현재 장애 발생)",
+      "version": "v2.0",
+      "createdAt": "2024-04-10",
+      "parameters": [
+        { "name": "grant_type", "type": "string", "required": true, "description": "인증 방식 (e.g., client_credentials)" },
+        { "name": "client_id", "type": "string", "required": true, "description": "클라이언트 ID" },
+        { "name": "client_secret", "type": "string", "required": true, "description": "클라이언트 시크릿" }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "시스템 상태 조회",
+      "endpoint": "/v1/system/health",
+      "status": "active",
+      "method": "GET",
+      "description": "전체 시스템의 상태를 확인하는 Health Check API 입니다.",
+      "version": "v1.0",
+      "createdAt": "2024-05-01",
+      "parameters": []
+    }
+  ]
+} 

@@ -1,0 +1,112 @@
+[
+  {
+    "productName": "네이버웍스 패키지",
+    "thumbnailUrl": "/img/naverworks.png",
+    "productType": "기관SaaS형",
+    "category": "패키지",
+    "vendor": "네이버",
+    "summary": "네이버의 클라우드 기반 업무 협업 솔루션",
+    "averageRating": 4.6,
+    "reviewCount": 18,
+    "subscribed": false
+  },
+  {
+    "productName": "브리티웍스 패키지",
+    "thumbnailUrl": "/img/brityworks.png",
+    "productType": "기관SaaS형",
+    "category": "패키지",
+    "vendor": "삼성SDS",
+    "summary": "브리티의 통합 업무 협업 플랫폼",
+    "averageRating": 4.2,
+    "reviewCount": 15,
+    "subscribed": false
+  },
+  {
+    "productName": "브리티 메일",
+    "thumbnailUrl": "/img/brityworks.png",
+    "productType": "기관SaaS형",
+    "category": "메일",
+    "vendor": "삼성SDS",
+    "summary": "신속하고 안전한 업무용 이메일 제공",
+    "averageRating": 4.4,
+    "reviewCount": 12,
+    "subscribed": true
+  },
+  {
+    "productName": "브리티 메신저",
+    "thumbnailUrl": "/img/brityworks.png",
+    "productType": "기관SaaS형",
+    "category": "메신저",
+    "vendor": "삼성SDS",
+    "summary": "실시간 커뮤니케이션을 위한 메신저 서비스",
+    "averageRating": 4.7,
+    "reviewCount": 20,
+    "subscribed": true
+  },
+  {
+    "productName": "브리티 드라이브",
+    "thumbnailUrl": "/img/brityworks.png",
+    "productType": "기관SaaS형",
+    "category": "드라이브",
+    "vendor": "삼성SDS",
+    "summary": "안전한 클라우드 파일 저장소",
+    "averageRating": 4.5,
+    "reviewCount": 17,
+    "subscribed": false
+  },
+  {
+    "productName": "브리티 화상회의",
+    "thumbnailUrl": "/img/brityworks.png",
+    "productType": "기관SaaS형",
+    "category": "화상회의",
+    "vendor": "삼성SDS",
+    "summary": "영상 회의와 화면 공유를 지원하는 협업 도구",
+    "averageRating": 4.1,
+    "reviewCount": 11,
+    "subscribed": false
+  },
+  {
+    "productName": "한컴오피스 Web",
+    "thumbnailUrl": "/img/brityworks.png",
+    "productType": "개인SaaS형",
+    "category": "웹에디터",
+    "vendor": "한컴",
+    "summary": "문서 작성과 공유를 위한 오피스 솔루션",
+    "averageRating": 4.3,
+    "reviewCount": 10,
+    "subscribed": true
+  },
+  {
+    "productName": "ARASOFT",
+    "thumbnailUrl": "/img/brityworks.png",
+    "productType": "개인SaaS형",
+    "category": "웹에디터",
+    "vendor": "ARASOFT",
+    "summary": "간단한 자료 배포를 위한 콘텐츠 도구",
+    "averageRating": 3.9,
+    "reviewCount": 8,
+    "subscribed": false
+  },
+  {
+    "productName": "ㅇㅇ 서비스",
+    "thumbnailUrl": "/img/brityworks.png",
+    "productType": "개인SaaS형",
+    "category": "통계",
+    "vendor": "제조사A",
+    "summary": "서비스 설명 문구가 들어갑니다.",
+    "averageRating": 4.0,
+    "reviewCount": 7,
+    "subscribed": true
+  },
+  {
+    "productName": "ㅁㅁ 서비스",
+    "thumbnailUrl": "/img/brityworks.png",
+    "productType": "개인설치형",
+    "category": "통계",
+    "vendor": "제조사B",
+    "summary": "서비스 설명 문구가 들어갑니다.",
+    "averageRating": 3.8,
+    "reviewCount": 6,
+    "subscribed": false
+  }
+]

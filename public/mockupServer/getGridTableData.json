@@ -1,0 +1,105 @@
+{
+  "list": [
+    {
+      "class": "매화반",
+      "name": "홍길동",
+      "number": "30534"
+    },
+    {
+      "class": "매화반",
+      "name": "김철수",
+      "number": "30115",
+      "korean": "94",
+      "english": "84",
+      "math": "79"
+    },
+    {
+      "class": "매화반",
+      "name": "홍길동",
+      "number": "30534",
+      "korean": "75",
+      "english": "50",
+      "math": "88"
+    },
+    {
+      "class": "매화반",
+      "name": "김철수",
+      "number": "30115",
+      "korean": "94",
+      "english": "84",
+      "math": "79"
+    },
+    {
+      "class": "국화반",
+      "name": "최민지",
+      "number": "30742",
+      "korean": "84",
+      "english": "98",
+      "math": "62"
+    },
+    {
+      "class": "국화반",
+      "name": "김갑수",
+      "number": "31124",
+      "korean": "61",
+      "english": "64",
+      "math": "77"
+    },
+    {
+      "class": "국화반",
+      "name": "이순신",
+      "number": "40534",
+      "korean": "95",
+      "english": "85",
+      "math": "78"
+    },
+    {
+      "class": "국화반",
+      "name": "임꺽정",
+      "number": "40115",
+      "korean": "91",
+      "english": "74",
+      "math": "89"
+    },
+    {
+      "class": "국화반",
+      "name": "을지문덕",
+      "number": "40311",
+      "korean": "75",
+      "english": "81",
+      "math": "91"
+    },
+    {
+      "class": "난초반",
+      "name": "신사임당",
+      "number": "51124",
+      "korean": "81",
+      "english": "74",
+      "math": "67"
+    },
+    {
+      "class": "난초반",
+      "name": "국영수",
+      "number": "51125",
+      "korean": "80",
+      "english": "80",
+      "math": "80"
+    },
+    {
+      "class": "난초반",
+      "name": "영수",
+      "number": "51126",
+      "korean": "70",
+      "english": "80",
+      "math": "80"
+    },
+    {
+      "class": "난초반",
+      "name": "국영",
+      "number": "51127",
+      "korean": "80",
+      "english": "80",
+      "math": "60"
+    }
+  ]
+}

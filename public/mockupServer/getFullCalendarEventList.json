@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Meeting1",
+    "start": "2024-05-12T14:30:00",
+    "extendedProps": {
+      "status": "done"
+    },
+    "interactive": true
+  },
+  {
+    "title": "Meeting1-1",
+    "start": "2024-05-12T15:30:00",
+    "extendedProps": {
+      "status": "done"
+    }
+  },
+  {
+    "title": "Meeting1-2",
+    "start": "2024-05-12T16:30:00",
+    "extendedProps": {
+      "status": "done"
+    }
+  },
+  {
+    "title": "Meeting1-3",
+    "start": "2024-05-12T17:30:00",
+    "extendedProps": {
+      "status": "done"
+    }
+  },
+  {
+    "title": "Meeting2",
+    "start": "2024-05-15T14:30:00",
+    "extendedProps": {
+      "status": "done"
+    }
+  },
+  {
+    "title": "Meeting3",
+    "start": "2024-05-20T14:30:00",
+    "end": "2024-05-21T14:30:00",
+    "extendedProps": {
+      "status": "done"
+    }
+  }
+]

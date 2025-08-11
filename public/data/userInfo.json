@@ -1,0 +1,38 @@
+[
+  {
+    "USER_ID": "USER001",
+    "USER_NM": "이소희",
+    "DEPT_NM": "기획조정실",
+    "INST_NM": "행정안전부",
+    "EML_ADDR": "sohee.lee@example.com",
+    "AUTH_CD_NM": "시스템 관리자",
+    "AUTH_CD": "A0010001"
+  },
+  {
+    "USER_ID": "USER002",
+    "USER_NM": "유영채",
+    "DEPT_NM": "기획조정실",
+    "INST_NM": "행정안전부",
+    "EML_ADDR": "youngchae.yu@example.com",
+    "AUTH_CD_NM": "기관 SaaS관리자",
+    "AUTH_CD": "A0010002"
+  },
+  {
+    "USER_ID": "USER003",
+    "USER_NM": "박희택",
+    "DEPT_NM": "정보화전략실",
+    "INST_NM": "행정안전부",
+    "EML_ADDR": "hee-taek.park@example.com",
+    "AUTH_CD_NM": "부서 SaaS 관리자",
+    "AUTH_CD": "A0010003"
+  },
+  {
+    "USER_ID": "USER004",
+    "USER_NM": "강민규",
+    "DEPT_NM": "재난안전실",
+    "INST_NM": "행정안전부",
+    "EML_ADDR": "minkyu.kang@example.com",
+    "AUTH_CD_NM": "SaaS 이용자",
+    "AUTH_CD": "A0010004"
+  }
+]

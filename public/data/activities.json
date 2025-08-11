@@ -1,0 +1,26 @@
+[
+  {
+    "type": "warning",
+    "title": "시스템 리소스 부족",
+    "description": "프리미엄 패키지의 CPU 사용량이 75%를 초과했습니다.",
+    "time": "10분 전"
+  },
+  {
+    "type": "new",
+    "title": "새로운 기관 등록",
+    "description": "ABC 기업이 기본 패키지에 가입했습니다.",
+    "time": "30분 전"
+  },
+  {
+    "type": "success",
+    "title": "시스템 업데이트 완료",
+    "description": "모든 패키지의 보안 업데이트가 완료되었습니다.",
+    "time": "1시간 전"
+  },
+  {
+    "type": "warning",
+    "title": "디스크 공간 부족",
+    "description": "엔터프라이즈 패키지의 디스크 사용량이 80%를 초과했습니다.",
+    "time": "2시간 전"
+  }
+] 

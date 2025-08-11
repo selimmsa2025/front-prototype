@@ -1,0 +1,22 @@
+{
+    "goodslist": [
+        {"seq":1, "title": "Works 패키지", "desc":"브리티웍스 패키지", "score":"4.9/5.0", "reviewcnt":"3,712", "sborgan":"34", "sbuser":"654,234"}, 
+        {"seq":2, "title": "Works 패키지", "desc":"네이버웍스 패키지", "score":"4.8/5.0", "reviewcnt":"2,456", "sborgan":"27", "sbuser":"413,231"}, 
+        {"seq":3, "title": "Works drive", "desc":"브리티웍스 드라이브", "score":"4.7/5.0", "reviewcnt":"1,231", "sborgan":"17", "sbuser":"154,234"}, 
+        {"seq":4, "title": "Works 일정", "desc":"브리티웍스 일정", "score":"4.6/5.0", "reviewcnt":"987", "sborgan":"15", "sbuser":"94,234"}, 
+        {"seq":5, "title": "Works 메일", "desc":"브리티웍스 메일", "score":"4.5/5.0", "reviewcnt":"877", "sborgan":"13", "sbuser":"74,154"}, 
+        {"seq":6, "title": "Works 녹음", "desc":"네이버웍스 녹음", "score":"4.4/5.0", "reviewcnt":"734", "sborgan":"12", "sbuser":"65,111"}, 
+        {"seq":7, "title": "Works 메일", "desc":"네이버웍스 메일", "score":"4.3/5.0", "reviewcnt":"654", "sborgan":"11", "sbuser":"31,204"}, 
+        {"seq":8, "title": "한컴 웹에디터", "desc":"한컴 에디터는 좋습니다", "score":"4.2/5.0", "reviewcnt":"315", "sborgan":"18", "sbuser":"12,671"},
+        {"seq":9, "title": "구글 메신저", "desc":"구글 메신저", "score":"4.2/5.0", "reviewcnt":"315", "sborgan":"18", "sbuser":"12,671"},
+        {"seq":10, "title": "A 메신저3", "desc":"A 메신저", "score":"4.2/5.0", "reviewcnt":"315", "sborgan":"18", "sbuser":"12,671"},
+        {"seq":11, "title": "B 메신저4", "desc":"B 메신저", "score":"4.2/5.0", "reviewcnt":"315", "sborgan":"18", "sbuser":"12,671"},
+        {"seq":12, "title": "C 메신저5", "desc":"C 메신저", "score":"4.2/5.0", "reviewcnt":"315", "sborgan":"18", "sbuser":"12,671"},
+        {"seq":13, "title": "D 메신저6", "desc":"D 메신저", "score":"4.2/5.0", "reviewcnt":"315", "sborgan":"18", "sbuser":"12,671"},
+        {"seq":14, "title": "E 메신저7", "desc":"E 메신저", "score":"4.2/5.0", "reviewcnt":"315", "sborgan":"18", "sbuser":"12,671"},
+        {"seq":15, "title": "F 메신저8", "desc":"F 메신저", "score":"4.2/5.0", "reviewcnt":"315", "sborgan":"18", "sbuser":"12,671"},
+        {"seq":16, "title": "G 메신저9", "desc":"G 메신저", "score":"4.2/5.0", "reviewcnt":"315", "sborgan":"18", "sbuser":"12,671"},
+        {"seq":17, "title": "H 메신저10", "desc":"H 메신저", "score":"4.2/5.0", "reviewcnt":"315", "sborgan":"18", "sbuser":"12,671"}
+        
+    ]
+}

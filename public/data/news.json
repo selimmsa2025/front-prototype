@@ -1,0 +1,52 @@
+{
+  "DBUSE_NEWS": [
+    {
+      "DBUSE_ID": 1,
+      "DBUSE_CATALOG_ID": 1,
+      "DBUSE_DATE": "2024-07-15",
+      "DBUSE_CONTENT": "v3.0 업데이트: 새로운 AI 비서 기능이 추가되었습니다."
+    },
+    {
+      "DBUSE_ID": 2,
+      "DBUSE_CATALOG_ID": 1,
+      "DBUSE_DATE": "2024-06-28",
+      "DBUSE_CONTENT": "v2.9 업데이트: 파일 공유 기능이 개선되었습니다."
+    },
+    {
+      "DBUSE_ID": 3,
+      "DBUSE_CATALOG_ID": 2,
+      "DBUSE_DATE": "2024-07-18",
+      "DBUSE_CONTENT": "보안 강화: 2단계 인증(2FA) 기능이 정식 출시되었습니다."
+    },
+    {
+      "DBUSE_ID": 4,
+      "DBUSE_CATALOG_ID": 3,
+      "DBUSE_DATE": "2024-07-20",
+      "DBUSE_CONTENT": "API v2 출시: 더욱 강력해진 API로 외부 서비스 연동이 쉬워집니다."
+    },
+    {
+      "DBUSE_ID": 5,
+      "DBUSE_CATALOG_ID": 1,
+      "DBUSE_DATE": "2024-06-10",
+      "DBUSE_CONTENT": "v2.8 업데이트: 실시간 동시 편집 기능이 안정화되었습니다."
+    },
+    {
+      "DBUSE_ID": 6,
+      "DBUSE_CATALOG_ID": 2,
+      "DBUSE_DATE": "2024-07-01",
+      "DBUSE_CONTENT": "엔터프라이즈 플랜 출시: 대규모 조직을 위한 새로운 요금제를 확인하세요."
+    },
+    {
+      "DBUSE_ID": 7,
+      "DBUSE_CATALOG_ID": 3,
+      "DBUSE_DATE": "2024-07-05",
+      "DBUSE_CONTENT": "데스크톱 앱 출시: Windows와 Mac에서 슬랙을 더 편하게 사용하세요."
+    },
+    {
+      "DBUSE_ID": 8,
+      "DBUSE_CATALOG_ID": 1,
+      "DBUSE_DATE": "2024-05-25",
+      "DBUSE_CONTENT": "v2.7 업데이트: 다크 모드를 지원합니다."
+    }
+  ]
+} 

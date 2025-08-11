@@ -1,0 +1,98 @@
+{
+  "totalAccess": 2847,
+  "activeUsers": 156,
+  "errorRate": 2.1,
+  "avgResponseTime": 125,
+  "accessData": {
+    "labels": ["00:00", "04:00", "08:00", "12:00", "16:00", "20:00"],
+    "datasets": [
+      {
+        "label": "접속자 수",
+        "data": [45, 32, 78, 156, 142, 98],
+        "borderColor": "rgb(54, 162, 235)",
+        "backgroundColor": "rgba(54, 162, 235, 0.2)"
+      }
+    ]
+  },
+  "usageData": {
+    "labels": ["월", "화", "수", "목", "금", "토", "일"],
+    "datasets": [
+      {
+        "label": "이용률",
+        "data": [85, 92, 78, 95, 88, 76, 82],
+        "borderColor": "rgb(255, 99, 132)",
+        "backgroundColor": "rgba(255, 99, 132, 0.2)"
+      }
+    ]
+  },
+  "weeklyUsage": {
+    "labels": ["1주차", "2주차", "3주차", "4주차"],
+    "datasets": [
+      {
+        "label": "API 호출",
+        "data": [1250, 1380, 1420, 1560],
+        "borderColor": "rgb(75, 192, 192)",
+        "backgroundColor": "rgba(75, 192, 192, 0.2)"
+      },
+      {
+        "label": "데이터 전송",
+        "data": [850, 920, 980, 1050],
+        "borderColor": "rgb(255, 159, 64)",
+        "backgroundColor": "rgba(255, 159, 64, 0.2)"
+      }
+    ]
+  },
+  "serviceUsage": {
+    "labels": ["API 서비스", "데이터베이스", "파일 스토리지", "이메일", "알림"],
+    "datasets": [
+      {
+        "label": "사용량",
+        "data": [35, 25, 20, 15, 5],
+        "backgroundColor": [
+          "rgba(255, 99, 132, 0.8)",
+          "rgba(54, 162, 235, 0.8)",
+          "rgba(255, 205, 86, 0.8)",
+          "rgba(75, 192, 192, 0.8)",
+          "rgba(153, 102, 255, 0.8)"
+        ]
+      }
+    ]
+  },
+  "saasProductUsage": {
+    "labels": ["브리티웍스", "네이버웍스", "한컴오피스", "안랩 V3", "기타"],
+    "datasets": [
+      {
+        "label": "사용량 (%)",
+        "data": [35, 25, 20, 15, 5],
+        "backgroundColor": [
+          "rgba(255, 99, 132, 0.8)",
+          "rgba(54, 162, 235, 0.8)",
+          "rgba(255, 205, 86, 0.8)",
+          "rgba(75, 192, 192, 0.8)",
+          "rgba(153, 102, 255, 0.8)"
+        ],
+        "borderWidth": 2,
+        "borderColor": "#fff"
+      }
+    ]
+  },
+  "featureUsage": {
+    "labels": ["워드프로세서", "스프레드시트", "프레젠테이션", "이메일", "드라이브", "보안"],
+    "datasets": [
+      {
+        "label": "사용량 (%)",
+        "data": [30, 25, 20, 15, 8, 2],
+        "backgroundColor": [
+          "rgba(255, 99, 132, 0.8)",
+          "rgba(54, 162, 235, 0.8)",
+          "rgba(255, 205, 86, 0.8)",
+          "rgba(75, 192, 192, 0.8)",
+          "rgba(153, 102, 255, 0.8)",
+          "rgba(255, 159, 64, 0.8)"
+        ],
+        "borderWidth": 2,
+        "borderColor": "#fff"
+      }
+    ]
+  }
+} 
